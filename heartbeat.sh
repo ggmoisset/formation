@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ -z "$HEARTBEATSTEP" ]; then
-    echo "La variable d'environnement HEARTBEATSTEP doit avoir une valeur!";
+    echo "Erreur: La variable d'environnement HEARTBEATSTEP doit avoir une valeur!";
     exit 1;
 fi
 
