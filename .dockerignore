@@ -1,0 +1,9 @@
+
+#black list docker
+#work
+#fichier1.bin
+#*.o
+
+#white liste docker
+*
+!heartbeat.sh
